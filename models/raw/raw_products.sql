@@ -5,5 +5,5 @@
         schema ='RAW'
     )
  }}
---SELECT * FROM SUPER_MART_DB.RAW.CUSTOMERS
-SELECT * FROM {{ source('src', 'customers') }}
+ --SELECT * FROM SUPER_MART_DB.RAW.PRODUCTS
+ SELECT * FROM {{ source('src', 'products') }}

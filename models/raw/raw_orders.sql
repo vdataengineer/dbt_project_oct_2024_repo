@@ -1,8 +1,7 @@
  {{
     config(
-        materialized='table',
-        database ='ANALYTICS_DB',
-        schema ='RAW'
+        materialized='table' 
+        
     )
  }}
 --SELECT * FROM SUPER_MART_DB.RAW.ORDERS

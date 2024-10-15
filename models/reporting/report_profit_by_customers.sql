@@ -1,11 +1,4 @@
- {{
-    config(
-        materialized='table',
-        database ='ANALYTICS_DB',
-        schema ='reporting'
-    )
- }}
-
+ 
 select 
  customerid  
 ,segment 

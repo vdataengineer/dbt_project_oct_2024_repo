@@ -1,10 +1,4 @@
- {{
-    config(
-        materialized='table',
-        database ='ANALYTICS_DB',
-        schema ='Staging'
-    )
- }}
+ 
  Select 
 --from orders
  o.orderid  
